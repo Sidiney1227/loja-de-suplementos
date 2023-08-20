@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+/*Tela de login*/
+.login{
+    background-color: rgb(42, 50, 165);
+    color: aliceblue;
+    border: 5px solid rgb(121, 119, 119);
+    height: 320px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.login.entrar {
+    color: blue;
+    height: 10px;
+    width: 5px;
+}
