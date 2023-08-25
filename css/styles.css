@@ -1,10 +1,10 @@
 body {
-    background-image: linear-gradient(to right, rgb(88, 7, 126),rgb(139, 15, 211),rgb(28, 62, 252));
+    background-image: linear-gradient(to right, rgb(70, 0, 128), rgb(93, 18, 155), rgb(0,0,0));
     margin: 0;
 }
 
 .conteiner {
-    background-color: #99979b;
+    background-color: rgba(0, 0, 0, 0.8);
     max-width: 1920px;
     width: auto;
     height: 70px;
@@ -41,11 +41,25 @@ nav::after {
     transition: .5s;
 }
 .nav-conteiner li a{
-     color: #431e97;
+     color: #ffffff;
  }
 header {
     position: relative;
     top: 0;
     height: auto;
     width: 100%;
+}
+
+.suplemento img{
+    width: 25%; /* 50% da largura do elemento pai */
+    height: auto; /* A altura se ajustará automaticamente de acordo com a largura */
+    object-fit: cover;
+    border: 2px solid#4e02ff;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: auto;
+    float: right; /* Faz a imagem flutuar para a direita */
+    margin-left: 100px; /* Adiciona um espaço à esquerda da imagem para evitar que o conteúdo fique muito próximo */
+         
 }
