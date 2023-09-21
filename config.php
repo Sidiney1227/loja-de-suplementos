@@ -13,7 +13,8 @@ if($conexao->connect_errno)
 
 }
 else{
-    
+
     echo "Conexão efetuada com sucesso";
+    
 }
 ?>

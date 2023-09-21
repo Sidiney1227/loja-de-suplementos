@@ -61,5 +61,11 @@ header {
     left: auto;
     float: right; /* Faz a imagem flutuar para a direita */
     margin-left: 100px; /* Adiciona um espaço à esquerda da imagem para evitar que o conteúdo fique muito próximo */
-         
+
+}
+
+.texto1{
+    color: white;
+    
+
 }
